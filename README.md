@@ -6,6 +6,7 @@ What it does:
 - print relationship search results (txt)
 - saves Wiki search data for faster loading in case of future use (json)
 - creates a matrix showing how many times a page is mentioned in other pages (csv)
+- !!! you can check sample output in the `/results` folder.
 
 I'm fairly new to programming in general (this is my first actual project), so any suggestions for code/algorithm improvements are very welcome!
 
