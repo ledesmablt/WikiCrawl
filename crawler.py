@@ -4,11 +4,9 @@ import json
 import re
 from datetime import date, datetime, timedelta
 from unidecode import unidecode
-from bs4 import BeautifulSoup
-from pprint import pprint
+from copy import copy
 
 
-global link_search_results      # probs a useless variable already?
 FILENAME = 'results'    # str(datetime.now()).replace(':','.')[5:16]
 now = str(datetime.now())
 userinput = ''
@@ -31,12 +29,13 @@ def main():
             pass
 
         [search_in_wiki(entry) for entry in search_query]
+        initial_search = copy(search_results)
         print('Data collection completed.') 
 
     [write_to_file.append({
             'id':page['title'],
-            'content':find_relationship(page, search_results)
-        }) for page in search_results]
+            'content':find_relationship(page, initial_search)
+        }) for page in initial_search]
     write_to_files()
 
 
@@ -57,24 +56,24 @@ def user_input_search():
         else:
             search_query.append(*userinput.split('\n'))    
 
-def search_in_wiki(entry):     #search_results may be unnecessary
+def search_in_wiki(entry):
     """
     Searches Wikipedia and search_archive.json (if applicable) based on user query.
-    Appends results to search_query array. New queries are added to the new_finds array,
+    Appends results to search_results array. New queries are added to the new_finds array,
     later to be added to search_archive.json.
     """
+    try:
+        for session_entry in search_results:
+            if entry.lower() in session_entry['title'].lower():
+                print(entry + ' exists in current session.')
+                return
+    except: pass
+
     try:
         for saved_entry in archive:
             if entry.lower() in saved_entry['title'].lower():
                 print(entry + ' found in saved file.')
                 search_results.append(saved_entry)
-                return
-    except: pass
-
-    try:
-        for session_entry in search_results:
-            if entry.lower() in session_entry['title'].lower():
-                print(entry + ' exists in current session.')
                 return
     except: pass
 
@@ -97,16 +96,22 @@ def search_in_wiki(entry):     #search_results may be unnecessary
         'link_id':  unidecode(page.title),
         'summary':  unidecode(page.summary),
         'content':  unidecode(page.content),
-        'links':    [unidecode(link) for link in page.links],
         'rev_id':   page.revision_id,
         'accessed': now
     })
+
+    search_results[-1]['links'] = list(set(
+        [link for link in page.links
+        if link in search_results[-1]['content']
+        or link[:link.find(' (')] in search_results[-1]['content']] # the ' (' often isn't in the body
+    ))
+    
     new_title = search_results[-1]['title']
     new_finds.append(new_title)
     df_rels[new_title], df_rels.loc[new_title] = None, None
 
 
-def find_relationship(base_page, search_results, depth=0, rel_path=[]):
+def find_relationship(base_page, search_request, depth=0, rel_path=[]):
     """
     Search all other pages to see if they mention the base page. Begins by
     searching for the base page is in the other page's links, then
@@ -123,49 +128,64 @@ def find_relationship(base_page, search_results, depth=0, rel_path=[]):
     text = array of the text where pages are mentioned in each path
     """
     global agg_content, found_content
-    agg_content = []
+    if depth==0: agg_content = []
     search_key = base_page['title']
-    search_link = base_page['link_id']
 
-    for target_page in [j for j in search_results if j['title']!=search_key]:        # can move this line to main()? (low prio)
+    for target_page in [j for j in search_request if j['title']!=search_key]:        # can move this line to main()? (low prio)
         print('Searching for {} in {}...'.format(search_key, target_page['title']))
         if depth==0:
             rel_path = []
-            found_content = {       # could turn this into a Class? (low prio)
+            found_content = {
                 'depth': depth,
                 'rel'  : [],
                 'text' : []
             }
         rel_path.append(search_key)
-        
-        if search_link in target_page['links']:
+
+        if (search_key in target_page['content']) or (target_page['title'] in base_page['content']):
             rel_path.append(target_page['title'])
-            found_content['rel'].append(rel_path)
+            found_content['rel'].append(copy(rel_path))
             found_content['text'].append([])
 
             for i, item in enumerate(rel_path[:-1]):      # content "snake" search for all entries in the rel_path
                 next_item = rel_path[i+1]
-                target_page = [j for j in search_results if j['title']==next_item][0]
-                search_in_content(item, target_page)
+                target_page = [page for page in search_results if page['title']==next_item][0]
+                found_content['text'][-1].append(search_in_content(item, target_page))
                 df_rels.at[item, next_item] = len(found_content['text'][-1][-1])
+                df_rels.at[next_item, item] = len(found_content['text'][-1][-1])
 
-            agg_content.append(found_content)
-            if depth>0: return
-        else:
+            rel_path.pop(); rel_path.pop()
+            if found_content not in agg_content:    # solves double-saving problem
+                agg_content.append(found_content)
+
+        elif depth<=1:    # limit depth to 1 to avoid oversearch
+            print('No direct match found. Searching in links.\n')
             search_in_links(base_page, target_page, depth+1, rel_path)
 
-    return agg_content
+        else:
+            print('Content not found. Skipping entry.')
+            rel_path.pop()
 
-def search_in_content(search_key, target_page):
+    if depth==0: return agg_content
+
+def search_in_content(search_key, target_page, backwards_search=False):
     """
     Search for the sentences in the other page where the base page is mentioned.
-    Appends results to found_content['text']
+    Returns a list containing the sentences.
+    If no data is found initially, does a 'reverse search' by flipping the search and target page.
     """
-    found_content['text'][-1].append(
-        [hit.strip() for hit in 
+    found_text = [hit.strip() for hit in 
             re.findall((r"([^.\n]*?" + search_key + r"[^.$\n]*\.)"),
-            target_page['content'], re.IGNORECASE)
-        ])   # doesn't return as many results for some reason??
+            target_page['content'], re.IGNORECASE)]
+    
+    if backwards_search: return found_text
+    if not found_text:
+        (search_key, target_page) = (
+            target_page['title'], [page for page in search_results if search_key==page['title']][0]
+        )
+        found_text = search_in_content(search_key, target_page, True)
+
+    return found_text
 
 def search_in_links(base_page, target_page, depth, rel_path):
     """
@@ -179,17 +199,23 @@ def search_in_links(base_page, target_page, depth, rel_path):
         found_content['depth'] = depth
         print('Match found. Searching for ' + str(len(link_match)) + ' links in Wiki.')
         for entry in link_match:
-            search_in_wiki(entry)           # MAJOR EDIT: now appends to search_results instead of link_
-            current_link_search.append(search_results[-1])
+            search_in_wiki(entry)
+            try:
+                newest_entry = [page for page in search_results if page['link_id']==entry][0]
+                current_link_search.append(newest_entry)
+            except: pass #search_results.pop()
 
     else:
         depth += 1
         print('Match not found. Searching Wiki for all links in ' + base_page['title'])
         for entry in base_page['links']:
-            search_in_wiki(entry)           # MAJOR EDIT: same here
-            current_link_search.append(search_results[-1])
+            search_in_wiki(entry)
+            try:
+                newest_entry = [page for page in search_results if page['link_id']==entry][0]
+                current_link_search.append(newest_entry)
+            except: pass #search_results.pop()
 
-    [search_in_links(entry, [target_page], depth, rel_path) for entry in current_link_search]   #link_search_results if it doesn't work
+    [find_relationship(entry, [target_page], depth, rel_path) for entry in current_link_search]
 
 
 def write_to_files():
@@ -198,7 +224,7 @@ def write_to_files():
     new_entries for future use.
     """
     df_rels.fillna(0, inplace=True)
-    df_rels.to_csv('results/{}_rel.csv'.format(FILENAME))
+    df_rels.to_csv('results/{}_rel.csv'.format(FILENAME), index_label='index')
 
     with open('results/{}.json'.format(FILENAME), 'w+') as savefile:
         json.dump(json.dumps(write_to_file), savefile)
@@ -206,17 +232,15 @@ def write_to_files():
     with open('results/{}.txt'.format(FILENAME),'w+') as f:
         f.write('DATE OF UDPATE: {}\nSEARCH QUERY: {}\n\n'.format(now, search_query))
         for base_page in write_to_file:
-            f.write(base_page['id'].upper() + '\n')
+            f.write(base_page['id'].upper())
             for other_page in base_page['content']:
-                for rel in other_page['rel']:
-                        f.write('{} - {} degrees\n'.format(rel[-1], other_page['depth']))
-                        if len(rel)>2: f.write('RELATIONSHIP: ' + str(rel))
-                    
-                for text in other_page['text']:
-                        for subtext in text:
-                            f.write('HITS: ' + str(len(subtext)) + '\n')
-                            for hit in subtext:
-                                f.write('{}\n'.format(hit))
+                for item_ind in range(0, len(other_page['rel'])):
+                    rel = other_page['rel'][item_ind]
+                    f.write('\n' + str(rel) + '\n') if len(rel)>2 else f.write('\n')
+                    for i, subtext in enumerate(other_page['text'][item_ind]):
+                        f.write('{} -- {} hit/s\n'.format(rel[i+1], str(len(subtext))))
+                        for hit in subtext:
+                            f.write('> {}\n'.format(hit))
             f.write('\n\n')
 
     with open('results/search_archive.json', 'r+') as f:

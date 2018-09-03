@@ -1,32 +1,210 @@
-DATE OF UDPATE: 2018-08-07 23:56:59.343042
-SEARCH QUERY: ['odd future', 'tyler, the creator']
+DATE OF UDPATE: 2018-09-03 00:23:59.864295
+SEARCH QUERY: ["d'angelo", 'odd future', 'brainfeeder', 'thundercat']
+
+D'ANGELO
+["D'Angelo", 'Kendrick Lamar', 'Odd Future']
+Kendrick Lamar -- 1 hit/s
+> Black Messiah, Beyonce's self-titled album (2013), Run the Jewels' Run the Jewels 2 (2014), and Kendrick Lamar's To Pimp a Butterfly (2015) were noted as laying the groundwork down for the political charged releases that happened in 2016, which included Rihanna's Anti, Kanye West's The Life of Pablo, and Beyonce's "Formation".
+Odd Future -- 1 hit/s
+> The group were not on the original bill, but were substituting for Kendrick Lamar after the concert had been sold out.
+
+["D'Angelo", 'Billboard 200', 'Odd Future']
+Billboard 200 -- 6 hit/s
+> His next album, Voodoo (2000), debuted at number one on the US Billboard 200.
+> The album was met with critical acclaim and fared well on music charts, peaking at number five on the US Billboard 200.
+> Brown Sugar also spent 65 weeks on the Billboard 200 and peaked at number 22 on the chart.
+> The album debuted at number one on the US Billboard 200 chart, selling 320,000 copies in its first week.
+> It entered the Billboard 200 on February 12, 2000 and remained on the chart for 33 consecutive weeks.
+> In its first week of release, Black Messiah debuted at number five on the Billboard 200 and sold 117,000 copies in the United States.
+Odd Future -- 1 hit/s
+> On April 2, Tyler, The Creator released his second studio album, Wolf, which received positive reviews from critics and debuted at #3 on the Billboard 200, selling 89,895 copies in the United States.
+
+["D'Angelo", 'New York City', 'Odd Future']
+New York City -- 1 hit/s
+> Following the formation of his native-Richmond, Virginia musical group, Michael Archer and Precise, and its success on the Amateur Night competition at Harlem, New York's Apollo Theater in 1991, the 18-year-old singer-songwriter and multi-instrumentalist dropped out of school and moved to New York City, as an attempt to develop his music career.
+Odd Future -- 1 hit/s
+> The group completed a two-stop tour, their first outside Los Angeles: in London, on November 5, 2010, and New York City on November 8.
+
+["D'Angelo", 'Discogs', 'Brainfeeder']
+Discogs -- 0 hit/s
+Brainfeeder -- 0 hit/s
+
+["D'Angelo", 'Erykah Badu', 'Thundercat']
+Erykah Badu -- 6 hit/s
+> Badu's career began after opening a show for D'Angelo in 1994 in Fort Worth; record label executive Kedar Massenburg was highly impressed with her performance and signed her to Kedar Entertainment.
+> Influenced by R&B, 1970s soul, and 1980s hip hop, Badu became associated with the neo soul subgenre in the 1990s along with artists like D'Angelo.
+> He set Badu up to record a duet with D'Angelo, "Your Precious Love", and eventually signed her to a record deal with Universal Records.
+> Badu's work draws from R&B, 1970s soul, and 1980s hip hop, and became associated with the neo soul subgenre in the 1990s along with artists like D'Angelo.
+> The album has been viewed by critics as a female companion to neo soul artist D'Angelo's second album Voodoo (2000), which features a similar musical style and direction.
+> Along with D'Angelo's Brown Sugar (1995) and Maxwell's Urban Hang Suite (1996), the album has been recognized by music writers for beginning neo soul's popularity and helping the genre obtain commercial visibility at the time.
+Thundercat -- 1 hit/s
+> Along with his band duties Bruner is also a session musician, acclaimed for his work on Erykah Badu's New Amerykah (2008) and Flying Lotus' Cosmogramma (2010).
+
+["D'Angelo", 'The Tonight Show Starring Jimmy Fallon', 'Thundercat']
+The Tonight Show Starring Jimmy Fallon -- 1 hit/s
+> D'Angelo performed Prince's "Sometimes it Snows in April" on The Tonight Show Starring Jimmy Fallon in April 2016 accompanied by Maya Rudolph and Gretchen Lieberum as a tribute to the late musician, appearing 'overcome with emotion' at the passing of a major influence.
+Thundercat -- 1 hit/s
+> In June 2017, Thundercat appeared on The Tonight Show Starring Jimmy Fallon to promote his studio album Drunk with Michael McDonald and Kenny Loggins.
+
+["D'Angelo", 'Kendrick Lamar', 'Thundercat']
+Kendrick Lamar -- 1 hit/s
+> Black Messiah, Beyonce's self-titled album (2013), Run the Jewels' Run the Jewels 2 (2014), and Kendrick Lamar's To Pimp a Butterfly (2015) were noted as laying the groundwork down for the political charged releases that happened in 2016, which included Rihanna's Anti, Kanye West's The Life of Pablo, and Beyonce's "Formation".
+Thundercat -- 2 hit/s
+> Thundercat appeared on Kendrick Lamar's critically acclaimed 2015 album To Pimp a Butterfly.
+> Bruner has been described as being a major contributor to and "at the creative epicenter" of Kendrick Lamar's critically acclaimed album To Pimp a Butterfly.
+
+["D'Angelo", 'To Pimp a Butterfly', 'Thundercat']
+To Pimp a Butterfly -- 3 hit/s
+> In Rolling Stone, Greg Tate deemed To Pimp a Butterfly "a masterpiece of fiery outrage, deep jazz and ruthless self-critique" that along with D'Angelo's third album Black Messiah, made 2015 "the year radical Black politics and for-real Black music resurged in tandem to converge on the nation's pop mainstream.
+> " Will Fulton, a musicologist, wrote in the American Music Review that To Pimp a Butterfly - like D'Angelo's 2014 album, Black Messiah - engages in and celebrates the black music tradition.
+> Fulton described Lamar and D'Angelo as "consciously index[ing] African American musical styles of the past in a dynamic relationship of nostalgic revivalism and vanguardism.
+Thundercat -- 3 hit/s
+> Thundercat appeared on Kendrick Lamar's critically acclaimed 2015 album To Pimp a Butterfly.
+> In 2016, Thundercat won a Grammy for Best Rap/Sung Performance for his work on the track "These Walls" from To Pimp a Butterfly.
+> Bruner has been described as being a major contributor to and "at the creative epicenter" of Kendrick Lamar's critically acclaimed album To Pimp a Butterfly.
+
 
 ODD FUTURE
-Tyler, the Creator - 0 degrees
-HITS: 10
-He rose to prominence as the leader and co-founder of the alternative hip hop collective Odd Future and has rapped on and produced songs for nearly every Odd Future release.
-After releasing his debut album Goblin under XL Recordings in April 2011, Okonma signed a joint venture deal for him and his label Odd Future Records, with RED Distribution and Sony Music Entertainment.
-Okonma and fellow Odd Future member Hodgy Beats made their television debut on February 16, 2011 when they performed "Sandwitches" on Late Night with Jimmy Fallon.
-On March 16, Okonma and Hodgy performed "Yonkers" and "Sandwitches" on the 2011 mtvU Woodie Awards, being joined by other members of Odd Future during "Sandwitches".
-During an interview with Okonma for Interview, Waka Flocka Flame expressed his interest in collaborating with the Odd Future frontman to direct a music video for him.
-Goblins by Game (also featuring Lil Wayne), "I'ma Hata" by DJ Drama (also featuring Waka Flocka Flame and D-Bo), the title track from fellow Odd Future member Domo Genesis' collaboration album with The Alchemist, No Idols, and "Blossom & Burn" by Trash Talk (also featuring Hodgy Beats).
-Okonma initially announced in early 2011, after Los Angeles hip hop collective Odd Future announced, that they will get their own TV show called Loiter Squad.
-Wolf was released on April 2, 2013 by Odd Future Records and RED Distribution under Sony Music Entertainment.
-Okonma's third album Cherry Bomb was released digitally on April 13, 2015, through Okonma's own label Odd Future Records, with physical copies of the album, featuring five different album covers, set to be released on April 28, 2015.
-" Despite making several remarks that have been taken as homophobic, Tyler, the Creator was among the first to openly support fellow Odd Future member Frank Ocean after publicly revealing a past relationship with another young man.
+['Odd Future', 'Kendrick Lamar', "D'Angelo"]
+Kendrick Lamar -- 1 hit/s
+> The group were not on the original bill, but were substituting for Kendrick Lamar after the concert had been sold out.
+D'Angelo -- 1 hit/s
+> Black Messiah, Beyonce's self-titled album (2013), Run the Jewels' Run the Jewels 2 (2014), and Kendrick Lamar's To Pimp a Butterfly (2015) were noted as laying the groundwork down for the political charged releases that happened in 2016, which included Rihanna's Anti, Kanye West's The Life of Pablo, and Beyonce's "Formation".
+
+['Odd Future', 'Billboard 200', "D'Angelo"]
+Billboard 200 -- 1 hit/s
+> On April 2, Tyler, The Creator released his second studio album, Wolf, which received positive reviews from critics and debuted at #3 on the Billboard 200, selling 89,895 copies in the United States.
+D'Angelo -- 6 hit/s
+> His next album, Voodoo (2000), debuted at number one on the US Billboard 200.
+> The album was met with critical acclaim and fared well on music charts, peaking at number five on the US Billboard 200.
+> Brown Sugar also spent 65 weeks on the Billboard 200 and peaked at number 22 on the chart.
+> The album debuted at number one on the US Billboard 200 chart, selling 320,000 copies in its first week.
+> It entered the Billboard 200 on February 12, 2000 and remained on the chart for 33 consecutive weeks.
+> In its first week of release, Black Messiah debuted at number five on the Billboard 200 and sold 117,000 copies in the United States.
+
+['Odd Future', 'New York City', "D'Angelo"]
+New York City -- 1 hit/s
+> The group completed a two-stop tour, their first outside Los Angeles: in London, on November 5, 2010, and New York City on November 8.
+D'Angelo -- 1 hit/s
+> Following the formation of his native-Richmond, Virginia musical group, Michael Archer and Precise, and its success on the Amateur Night competition at Harlem, New York's Apollo Theater in 1991, the 18-year-old singer-songwriter and multi-instrumentalist dropped out of school and moved to New York City, as an attempt to develop his music career.
+
+['Odd Future', 'Los Angeles', 'Brainfeeder']
+Los Angeles -- 5 hit/s
+> Odd Future Wolf Gang Kill Them All, normally shortened to Odd Future, is an American hip hop collective formed in Los Angeles in 2007.
+> Odd Future was formed in 2007 in Los Angeles.
+> Much of the collective's early music was recorded in a room of Syd tha Kyd and Taco's South Central Los Angeles home, known as the Trap House|date=August 2018}} In November 2008, they released their debut mixtape, The Odd Future Tape.
+> The group completed a two-stop tour, their first outside Los Angeles: in London, on November 5, 2010, and New York City on November 8.
+> On August 8, 2018, Taco posted a series of four 15-second videos on his Instagram story, showing an Odd Future reunion concert taking place in at The Low End Theory club in Los Angeles, as the club's final show.
+Brainfeeder -- 3 hit/s
+> Brainfeeder is an independent record label based in Los Angeles, California, founded by Flying Lotus in 2008, focusing on electronic music and instrumental hip hop.
+> It is also the name of the first track on Flying Lotus's album Los Angeles.
+> In that year, Brainfeeder was listed by LA Weekly as the most exciting Los Angeles indie label.
+
+['Odd Future', 'California', 'Brainfeeder']
+California -- 1 hit/s
+> The tour included 27 stops, beginning on September 28, 2011 in San Diego, California at the House of Blues.
+Brainfeeder -- 1 hit/s
+> Brainfeeder is an independent record label based in Los Angeles, California, founded by Flying Lotus in 2008, focusing on electronic music and instrumental hip hop.
+
+['Odd Future', 'Kendrick Lamar', 'Thundercat']
+Kendrick Lamar -- 1 hit/s
+> The group were not on the original bill, but were substituting for Kendrick Lamar after the concert had been sold out.
+Thundercat -- 2 hit/s
+> Thundercat appeared on Kendrick Lamar's critically acclaimed 2015 album To Pimp a Butterfly.
+> Bruner has been described as being a major contributor to and "at the creative epicenter" of Kendrick Lamar's critically acclaimed album To Pimp a Butterfly.
+
+['Odd Future', 'Los Angeles', 'Thundercat']
+Los Angeles -- 5 hit/s
+> Odd Future Wolf Gang Kill Them All, normally shortened to Odd Future, is an American hip hop collective formed in Los Angeles in 2007.
+> Odd Future was formed in 2007 in Los Angeles.
+> Much of the collective's early music was recorded in a room of Syd tha Kyd and Taco's South Central Los Angeles home, known as the Trap House|date=August 2018}} In November 2008, they released their debut mixtape, The Odd Future Tape.
+> The group completed a two-stop tour, their first outside Los Angeles: in London, on November 5, 2010, and New York City on November 8.
+> On August 8, 2018, Taco posted a series of four 15-second videos on his Instagram story, showing an Odd Future reunion concert taking place in at The Low End Theory club in Los Angeles, as the club's final show.
+Thundercat -- 2 hit/s
+> Stephen Lee Bruner (born October 19, 1984), better known by his stage name Thundercat, is an American multi-genre bass guitarist, record producer, singer and songwriter from Los Angeles, California.
+> as a member of the Los Angeles punk band Suicidal Tendencies, replacing former bass player Josh Paul.
 
 
-TYLER, THE CREATOR
-Odd Future - 0 degrees
-HITS: 9
-The collective was originally formed by Tyler, the Creator with Hodgy, Left Brain, Casey Veggies, The Super 3, and Jasper Dolphin.
-The original members were founder Tyler, the Creator (Tyler Okonma), Left Brain (Vyron Turner), Hodgy Beats (Gerard Long) and Jasper Dolphin (Davon Wilson).
-Tyler, the Creator also signed a one-album deal with XL Recordings and released his sophomore effort, Goblin, on May 10, 2011.
-On October 3, 2011, Tyler, The Creator tweeted a link to iTunes with a compilation album of 12 old Odd Future songs from artists within the group such as Domo Genesis, Hodgy Beats, Mike G, The Jet Age of Tomorrow, MellowHype, The Internet, and Tyler himself.
-On April 2, Tyler, The Creator released his second studio album, Wolf, which received positive reviews from critics and debuted at #3 on the Billboard 200, selling 89,895 copies in the United States.
-""OFWGKTA" was listed on the bill for Tyler, the Creator's 4th Annual Camp Flog Gnaw Carnival.
-During the Odd Future set at the 4th Annual Camp Flog Gnaw Carnival, Hodgy Beats called out Tyler, The Creator onstage about his dissatisfaction with Tyler, and remarking how he "stayed broke", and was also visibly irritated when other Odd Future members thanked Tyler for the invite to the carnival.
-Some rumors began to circulate in August-September 2016 about the group working together musically again after a picture was taken of Tyler, The Creator, Earl Sweatshirt, Syd Tha Kyd, Jasper Dolphin, Taco Bennett, and Matt Martians together at the Afropunk Festival.
-As of 2015, Tyler, The Creator has been banned from the United Kingdom for 3-5 years due to the allegedly homophobic and violent content of his lyrics from earlier albums such as Bastard and Goblin.
+BRAINFEEDER
+['Brainfeeder', 'Discogs', "D'Angelo"]
+Discogs -- 0 hit/s
+D'Angelo -- 0 hit/s
+
+['Brainfeeder', 'Los Angeles', 'Odd Future']
+Los Angeles -- 3 hit/s
+> Brainfeeder is an independent record label based in Los Angeles, California, founded by Flying Lotus in 2008, focusing on electronic music and instrumental hip hop.
+> It is also the name of the first track on Flying Lotus's album Los Angeles.
+> In that year, Brainfeeder was listed by LA Weekly as the most exciting Los Angeles indie label.
+Odd Future -- 5 hit/s
+> Odd Future Wolf Gang Kill Them All, normally shortened to Odd Future, is an American hip hop collective formed in Los Angeles in 2007.
+> Odd Future was formed in 2007 in Los Angeles.
+> Much of the collective's early music was recorded in a room of Syd tha Kyd and Taco's South Central Los Angeles home, known as the Trap House|date=August 2018}} In November 2008, they released their debut mixtape, The Odd Future Tape.
+> The group completed a two-stop tour, their first outside Los Angeles: in London, on November 5, 2010, and New York City on November 8.
+> On August 8, 2018, Taco posted a series of four 15-second videos on his Instagram story, showing an Odd Future reunion concert taking place in at The Low End Theory club in Los Angeles, as the club's final show.
+
+['Brainfeeder', 'Flying Lotus', 'Odd Future']
+Flying Lotus -- 2 hit/s
+> As Ellison's profile rose, he decided to commandeer the limelight by launching his own label, Brainfeeder, to house his friends (Samiyam, Ras G, etc.
+> On July 5, 2016, Ellison announced the start of Brainfeeder film division.
+Odd Future -- 3 hit/s
+> With a lifelong fascination for hip hop, but no firm position within it, the likes of Odd Future (also aficionados of Adult Swim), A$AP Mob, Spaceghostpurrp and Shabazz Palaces inspired him to get a bit more direct, and soon he was knocking out production for Odd Future's Hodgy Beats' Untitled EP.
+> [Odd Future] started playing me some of The OF Tape Vol.
+> Press speculated who the rapper was, with guessing being centered around the Odd Future Crew.
+
+Thundercat -- 1 hit/s
+> The next two years saw a return to the recording studio with fellow Brainfeeder artist Flying Lotus, with contributions to the Lotus's Until the Quiet Comes (2012) and You're Dead! (2014), and the release of Thundercat's second album Apocalypse (2013).
+
+
+THUNDERCAT
+['Thundercat', 'Erykah Badu', "D'Angelo"]
+Erykah Badu -- 1 hit/s
+> Along with his band duties Bruner is also a session musician, acclaimed for his work on Erykah Badu's New Amerykah (2008) and Flying Lotus' Cosmogramma (2010).
+D'Angelo -- 3 hit/s
+> Along with artists like Erykah Badu, Lauryn Hill, Maxwell, and collaborator Angie Stone, D'Angelo is associated with the Neo soul movement.
+> " During his sabbatical period, he generally released cover versions and remakes, including a cover-collaboration with Erykah Badu of the Marvin Gaye and Tammi Terrell duet song "Your Precious Love" for the soundtrack to High School High (1996).
+> Around the same time, the compilation was released digitally without the Erykah Badu and Raphael Saddiq featured songs, under the title Ultimate D'Angelo.
+
+['Thundercat', 'The Tonight Show Starring Jimmy Fallon', "D'Angelo"]
+The Tonight Show Starring Jimmy Fallon -- 1 hit/s
+> In June 2017, Thundercat appeared on The Tonight Show Starring Jimmy Fallon to promote his studio album Drunk with Michael McDonald and Kenny Loggins.
+D'Angelo -- 1 hit/s
+> D'Angelo performed Prince's "Sometimes it Snows in April" on The Tonight Show Starring Jimmy Fallon in April 2016 accompanied by Maya Rudolph and Gretchen Lieberum as a tribute to the late musician, appearing 'overcome with emotion' at the passing of a major influence.
+
+['Thundercat', 'Kendrick Lamar', "D'Angelo"]
+Kendrick Lamar -- 2 hit/s
+> Thundercat appeared on Kendrick Lamar's critically acclaimed 2015 album To Pimp a Butterfly.
+> Bruner has been described as being a major contributor to and "at the creative epicenter" of Kendrick Lamar's critically acclaimed album To Pimp a Butterfly.
+D'Angelo -- 1 hit/s
+> Black Messiah, Beyonce's self-titled album (2013), Run the Jewels' Run the Jewels 2 (2014), and Kendrick Lamar's To Pimp a Butterfly (2015) were noted as laying the groundwork down for the political charged releases that happened in 2016, which included Rihanna's Anti, Kanye West's The Life of Pablo, and Beyonce's "Formation".
+
+['Thundercat', 'To Pimp a Butterfly', "D'Angelo"]
+To Pimp a Butterfly -- 4 hit/s
+> The album was recorded in studios throughout the United States, with production from Sounwave, Terrace Martin, Taz "Tisa" Arnold, Thundercat, Rahki, LoveDragon, Flying Lotus, Pharrell Williams, Boi-1da, and several other high-profile hip hop producers, as well as executive production from Dr.
+> Lamar kept all the tracks, but only opener "Wesley's Theory", which also features Thundercat and George Clinton, made the final cut onto the album.
+> Afterwards, producer Thundercat was brought into the process, after Flying Lotus brought him along to see Lamar's performance on The Yeezus Tour.
+> According to producer Thundercat, it "completes the sentence" of Lamar's third studio album.
+D'Angelo -- 1 hit/s
+> Black Messiah, Beyonce's self-titled album (2013), Run the Jewels' Run the Jewels 2 (2014), and Kendrick Lamar's To Pimp a Butterfly (2015) were noted as laying the groundwork down for the political charged releases that happened in 2016, which included Rihanna's Anti, Kanye West's The Life of Pablo, and Beyonce's "Formation".
+
+['Thundercat', 'Kendrick Lamar', 'Odd Future']
+Kendrick Lamar -- 2 hit/s
+> Thundercat appeared on Kendrick Lamar's critically acclaimed 2015 album To Pimp a Butterfly.
+> Bruner has been described as being a major contributor to and "at the creative epicenter" of Kendrick Lamar's critically acclaimed album To Pimp a Butterfly.
+Odd Future -- 1 hit/s
+> The group were not on the original bill, but were substituting for Kendrick Lamar after the concert had been sold out.
+
+['Thundercat', 'Los Angeles', 'Odd Future']
+Los Angeles -- 2 hit/s
+> Stephen Lee Bruner (born October 19, 1984), better known by his stage name Thundercat, is an American multi-genre bass guitarist, record producer, singer and songwriter from Los Angeles, California.
+> as a member of the Los Angeles punk band Suicidal Tendencies, replacing former bass player Josh Paul.
+Odd Future -- 5 hit/s
+> Odd Future Wolf Gang Kill Them All, normally shortened to Odd Future, is an American hip hop collective formed in Los Angeles in 2007.
+> Odd Future was formed in 2007 in Los Angeles.
+> Much of the collective's early music was recorded in a room of Syd tha Kyd and Taco's South Central Los Angeles home, known as the Trap House|date=August 2018}} In November 2008, they released their debut mixtape, The Odd Future Tape.
+> The group completed a two-stop tour, their first outside Los Angeles: in London, on November 5, 2010, and New York City on November 8.
+> On August 8, 2018, Taco posted a series of four 15-second videos on his Instagram story, showing an Odd Future reunion concert taking place in at The Low End Theory club in Los Angeles, as the club's final show.
+
+Brainfeeder -- 1 hit/s
+> It has signed artists such as Ras G, Samiyam, The Gaslamp Killer, Thundercat, The Underachievers, Lapalux, Daedelus, and Mr.
 
 
